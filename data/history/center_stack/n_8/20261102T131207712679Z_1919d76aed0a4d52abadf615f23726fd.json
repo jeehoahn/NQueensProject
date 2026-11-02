@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "run_id": "1919d76aed0a4d52abadf615f23726fd",
+  "recorded_at_utc": "2026-11-02T13:12:07.714183+00:00",
+  "algorithm_id": "center_stack",
+  "algorithm_name": "중앙 시작 달팽이 · 스택 DFS",
+  "n": 8,
+  "solution_scope": "all",
+  "fixed_queen_column_row": null,
+  "solution_count": 2,
+  "explored_nodes": 599,
+  "average_node_ms": 62.19387412354881,
+  "elapsed_seconds": 37.25413060000574,
+  "finished": false,
+  "cancelled": true,
+  "error_message": null,
+  "step_visualization_enabled": true,
+  "time_estimates": {
+    "worst_case": {
+      "predicted_seconds": 27798.13177356396,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": null
+    }
+  }
+}

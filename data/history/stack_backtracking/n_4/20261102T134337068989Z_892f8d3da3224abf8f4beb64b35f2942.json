@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "run_id": "892f8d3da3224abf8f4beb64b35f2942",
+  "recorded_at_utc": "2026-11-02T13:43:37.069086+00:00",
+  "algorithm_id": "stack_backtracking",
+  "algorithm_name": "Stack Backtracking",
+  "n": 4,
+  "solution_scope": "all",
+  "fixed_queen_column_row": null,
+  "solution_count": 2,
+  "explored_nodes": 60,
+  "average_node_ms": 66.48985166660471,
+  "elapsed_seconds": 3.9893910999962827,
+  "finished": true,
+  "cancelled": false,
+  "error_message": null,
+  "step_visualization_enabled": true,
+  "time_estimates": {
+    "worst_case": {
+      "predicted_seconds": 9.21839694992741,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 131.07278075433615
+    }
+  }
+}

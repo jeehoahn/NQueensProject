@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "run_id": "44f800324a3d4c49bdd51d8a2db58074",
+  "recorded_at_utc": "2026-11-02T13:12:19.826092+00:00",
+  "algorithm_id": "symmetric_bit_stack",
+  "algorithm_name": "첫 퀸 이후 비트마스크 DFS · 대칭성 제거",
+  "n": 4,
+  "solution_scope": "all",
+  "fixed_queen_column_row": null,
+  "solution_count": 2,
+  "explored_nodes": 8,
+  "average_node_ms": 1.02673750006943,
+  "elapsed_seconds": 0.00821390000055544,
+  "finished": true,
+  "cancelled": false,
+  "error_message": null,
+  "step_visualization_enabled": false,
+  "time_estimates": {
+    "worst_case": {
+      "predicted_seconds": null,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": null
+    },
+    "first_branch": {
+      "predicted_seconds": 0.0001996000064536929,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 97.56997277249302
+    },
+    "history_growth": {
+      "predicted_seconds": null,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "같은 알고리즘으로 완료한 서로 다른 작은 N의 기록이 최소 2개 필요합니다 (Step 시각화 OFF)",
+      "error_percent": null
+    },
+    "node_average": {
+      "predicted_seconds": 0.016054400010034442,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "완료 루트 분기 1개 × 평균 후보 검사 노드 수/분기 × 현재 평균 초/노드; 예상 루트 분기 2개",
+      "error_percent": 95.45404751639065
+    },
+    "knuth_monte_carlo": {
+      "predicted_seconds": 0.008236181252016195,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "실행 전 무작위 경로 64회: 경로별 분기 수 누적곱의 평균 탐색 후보 ≈ 8.2개 × 현재 초/노드; 표본 경로 탐색은 실제 노드 수에 포함하지 않음",
+      "error_percent": 0.2712627553202168
+    },
+    "depth_branching": {
+      "predicted_seconds": 0.008954579006098307,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "깊이별 평균 분기 계수 64개 표본 경로로 추정; 평균 분기 수를 깊이마다 곱한 탐색 후보 ≈ 8.9개 × 현재 초/노드; 독립 평균 곱 근사로 편향 가능",
+      "error_percent": 9.017385231044688
+    }
+  }
+}

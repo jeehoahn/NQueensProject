@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "run_id": "87955583d02044a68a50e3bb791fe874",
+  "recorded_at_utc": "2026-11-02T13:42:44.095282+00:00",
+  "algorithm_id": "stack_backtracking",
+  "algorithm_name": "Stack Backtracking",
+  "n": 4,
+  "solution_scope": "all",
+  "fixed_queen_column_row": null,
+  "solution_count": 2,
+  "explored_nodes": 60,
+  "average_node_ms": 2.0782416667013117,
+  "elapsed_seconds": 0.12469450000207871,
+  "finished": true,
+  "cancelled": false,
+  "error_message": null,
+  "step_visualization_enabled": false,
+  "time_estimates": {
+    "worst_case": {
+      "predicted_seconds": 1.249304850029148,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 901.8925052895848
+    },
+    "first_branch": {
+      "predicted_seconds": 0.0007040000054985285,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 99.43542016248769
+    },
+    "history_growth": {
+      "predicted_seconds": null,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "같은 알고리즘으로 완료한 서로 다른 작은 N의 기록이 최소 2개 필요합니다 (Step 시각화 OFF)",
+      "error_percent": null
+    },
+    "node_average": {
+      "predicted_seconds": 0.48798039997927845,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "완료 루트 분기 1개 × 평균 후보 검사 노드 수/분기 × 현재 평균 초/노드; 예상 루트 분기 4개",
+      "error_percent": 291.34075678650106
+    },
+    "knuth_monte_carlo": {
+      "predicted_seconds": 0.43801846876021955,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "실행 전 무작위 경로 64회: 경로별 분기 수 누적곱의 평균 탐색 후보 ≈ 57.5개 × 현재 초/노드; 표본 경로 탐색은 실제 노드 수에 포함하지 않음",
+      "error_percent": 251.2732869155557
+    },
+    "depth_branching": {
+      "predicted_seconds": 0.45426562120200487,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "깊이별 평균 분기 계수 64개 표본 경로로 추정; 평균 분기 수를 깊이마다 곱한 탐색 후보 ≈ 59.6개 × 현재 초/노드; 독립 평균 곱 근사로 편향 가능",
+      "error_percent": 264.30285312859195
+    }
+  }
+}

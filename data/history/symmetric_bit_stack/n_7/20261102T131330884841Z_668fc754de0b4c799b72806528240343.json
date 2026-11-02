@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "run_id": "668fc754de0b4c799b72806528240343",
+  "recorded_at_utc": "2026-11-02T13:13:30.884897+00:00",
+  "algorithm_id": "symmetric_bit_stack",
+  "algorithm_name": "첫 퀸 이후 비트마스크 DFS · 대칭성 제거",
+  "n": 7,
+  "solution_scope": "all",
+  "fixed_queen_column_row": null,
+  "solution_count": 40,
+  "explored_nodes": 276,
+  "average_node_ms": 0.06004347823614228,
+  "elapsed_seconds": 0.016571999993175268,
+  "finished": true,
+  "cancelled": false,
+  "error_message": null,
+  "step_visualization_enabled": false,
+  "time_estimates": {
+    "worst_case": {
+      "predicted_seconds": 58.520653640625824,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 353029.69867684034
+    },
+    "first_branch": {
+      "predicted_seconds": 0.002748200044152327,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": null,
+      "error_percent": 83.41660605066318
+    },
+    "history_growth": {
+      "predicted_seconds": 0.020922525907535478,
+      "predicted_solutions": 1,
+      "solution_error_percent": 97.5,
+      "prediction_note": "N=5(13회), N=6(14회) 평균 기반 로그 기울기 외삽 | 시간 증가 배율/N=1.299, 해답 ln(1+개수) 기울기/N=-0.7885",
+      "error_percent": 26.252268381317023
+    },
+    "node_average": {
+      "predicted_seconds": 0.06290760001866147,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "완료 루트 분기 1개 × 평균 후보 검사 노드 수/분기 × 현재 평균 초/노드; 예상 루트 분기 4개",
+      "error_percent": 279.6017381400451
+    },
+    "knuth_monte_carlo": {
+      "predicted_seconds": 0.25153889498903936,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "실행 전 무작위 경로 64회: 경로별 분기 수 누적곱의 평균 탐색 후보 ≈ 260.6개 × 현재 초/노드; 표본 경로 탐색은 실제 노드 수에 포함하지 않음",
+      "error_percent": 1417.8547857387696
+    },
+    "depth_branching": {
+      "predicted_seconds": 0.26449771651298715,
+      "predicted_solutions": null,
+      "solution_error_percent": null,
+      "prediction_note": "깊이별 평균 분기 계수 64개 표본 경로로 추정; 평균 분기 수를 깊이마다 곱한 탐색 후보 ≈ 274.0개 × 현재 초/노드; 독립 평균 곱 근사로 편향 가능",
+      "error_percent": 1496.0518743779471
+    }
+  }
+}
